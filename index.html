@@ -34,7 +34,11 @@
       <link rel="stylesheet" href="css/tilda-forms-1.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';">
       <link rel="stylesheet" href="font.css?family=Comfortaa:300,400,700&subset=cyrillic" type="text/css">
       <script type="text/javascript" src="js/rentafont_webfonts.js" charset="utf-8"></script>
-      <script type="text/javascript">function t_onReady(func) {
+      <script type="text/javascript">
+         if (window.location.href.indexOf('http://moe-prizvanie.ru') === 0) {
+    window.location.href = 'https://moe-prizvanie.ru/{{ page.url }}';
+}
+         function t_onReady(func) {
          if (document.readyState != 'loading') {
          func();
          } else {

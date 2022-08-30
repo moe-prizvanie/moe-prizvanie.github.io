@@ -274,7 +274,7 @@
 
     showWidgetAutomatically: function (button) {
         url = button.dataset.url;
-        document.location.href = "https://wa.me/89145781939";
+        document.location.href = "https://wa.me/+79145781939";
     },
 
 	setButtons: function() {
@@ -325,7 +325,7 @@
                 yWidget.trackButtonClick();
             }
 
-            document.location.href = "https://wa.me/89145781939";
+            document.location.href = "https://wa.me/+79145781939";
 		}, false);
 	},
 
